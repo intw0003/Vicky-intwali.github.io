@@ -1,0 +1,40 @@
+body {
+    color:rgb(76, 48, 10);
+    font-family: helvetica, Sans-serif;
+    font-size: 18px;
+}
+
+
+.site-title {
+    color:rgb(143, 7, 7);
+}
+
+#my-image{
+    box-shadow: 0 0 2px 1px black;
+}
+
+article ul li{
+    list-style:square;
+}
+
+article ul li:nth-child(odd){
+background-color:rgb(249, 189, 132); 
+}
+
+nav ul li{
+    list-style:none;
+}
+
+nav ul li a,
+nav ul li a:link,
+nav ul li a:visited{
+
+text-decoration:none;
+background-color:rgb(232, 216, 247);
+border:3px solid rgb(242, 198, 116);
+}
+
+nav ul li a:hover,
+nav ul li a:focus{
+    background-color: rgb(246, 227, 212);
+}
