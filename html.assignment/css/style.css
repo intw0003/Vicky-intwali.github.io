@@ -38,3 +38,7 @@ nav ul li a:hover,
 nav ul li a:focus{
     background-color: rgb(246, 227, 212);
 }
+
+header, footer {
+    background-color: antiquewhite;
+}
