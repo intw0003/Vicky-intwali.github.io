@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+body {
+    /*CSS Comments: Ctrl + /*/
+    background-color: #B2D3CF;
+    font-family:Helvetica;
+
+    /* color:#D8E9E7; */
+
+}
+
+main{
+margin: 0 auto;
+width: 900px;
+background-color:#D8E9E7;
+}
+
+.h1{
+    color:white;
+    font-size: 64px;
+    position:absolute;
+    top:162px;
+    left:1016px;
+}
+
+.p{
+    font-size: 16px;
+    justify-content: center;
+    text-align: justify;
+    margin:10px;
+    padding:10px;
+}
+
+.navigation li {
+    display: inline-block;
+    border-right: 1px solid black;
+    padding: 16px 148px;
+}
+
+.navigation li:last-child {
+    border: none;
+}
+
+
+.img {
+    width: 140px; 
+    height: 140px;
+    margin:10px;
+    float:left;
+}
+
+.maincharacter{
+    width:903px;
+    height:272px;
+    margin:10px 764px 0px;
+    
+    
+}
+.h2-1{
+    margin:0px 0px 4px 10px;
+    font-size: 30px;
+
+}
+
+section ul li {
+    list-style:disc;
+    margin:19px;
+    
+}
+
+.h3{
+    font-size: 27px;
+    margin: 5px 8px;
+    
+}
+
+.move{
+    margin: 0px 8px;
+}
+
+.navigation{
+    padding:8px 660px;
+    margin:0 auto;
+    background-color: #D8E9E7;
+}
+
+.form {
+    font-size:19px;
+    margin: 9px 8px;
+}
+
+.footer{
+    float:left;
+    padding:0px 10px 10px 0px;
+    
+}
