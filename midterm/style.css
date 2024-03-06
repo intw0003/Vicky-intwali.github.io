@@ -50,8 +50,8 @@ background-color:#D8E9E7;
     color:white;
     font-size: 64px;
     position:absolute;
-    top:162px;
-    left:1016px;
+    top:167px;
+    left:420px;
 }
 
 .p{
@@ -81,9 +81,9 @@ background-color:#D8E9E7;
 }
 
 .maincharacter{
-    width:903px;
+    width:860px;
     height:272px;
-    margin:10px 764px 0px;
+    margin:0px 176px 0px;
     
     
 }
@@ -110,7 +110,7 @@ section ul li {
 }
 
 .navigation{
-    padding:8px 660px;
+    padding:0px 27px;
     margin:0 auto;
     background-color: #D8E9E7;
 }
