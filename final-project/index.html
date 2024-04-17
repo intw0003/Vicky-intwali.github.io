@@ -5,20 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css"> 
+    
 </head>
 <body>
 
     <main>
         
-    <div>
+    <div class="container">
         
-    <img class="img" src="images/logo.png" alt="Logo">
+    <img class="img" src="images/logo.png" alt="Logo"> 
 
-    
+    </div> 
+
     <nav>
+        
         <ul>
-
-            <li>Home</li>
+            <li id="Home"> <a href=#home>HOME</a></li>
             <li>About Us</li>
             <li>Services</li>
             <li>Team</li>
@@ -27,36 +31,35 @@
     </nav>
 
 
-    <div>
-        <label for="search">search</label><br>
-        <input name="search" id="search">
+    <div class="search-bar">
+        <input type="text" placeholder="search">
     </div>
 
-</div>
+
 
 
 <section>
 
-    <h1>Welcome to Three Star Media</h1>
-    <img class="second img" src="images/main-banner.jpg" alt="Main banner">
+    <h1 class="h1">Welcome to Three Star Media</h1>
+    <img class="second-img" src="images/main-banner.jpg" alt="Main banner">
 
-    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!</p>
+    <p class="p1">Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!</p>
 
 
-    <button class="Connect with us">Connect with us &#x25B6; </button>
+    <button class="connect-with-us">Connect with us &#x25B6; </button>
 
 
 </section>
 
 <section>
 
-    <img class="second img" src="images/about-us.jpg" alt="About Us">
+    <img class="third-img" src="images/about-us.jpg" alt="About Us">
 
 
-    <h2><strong>About Us</strong></h2>
+    <h2 class="h2"><strong>About Us</strong></h2>
 
 
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?
+    <p class="p2"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi guidem, non perferendis vel sed facilis rerum cum in exercitationem? </p>
 
@@ -65,60 +68,32 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atq
 
 <section>
 
-<h3><strong>Our Services</strong></h3>
+<h3 class="h3"><strong>Our Services</strong></h3>
 
-<img class="third img" src="images/digital.jpg" alt="Our Services">
-
-
-<h4><strong>Digital Transformation</strong></h4>
-
-<p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi? </p>
+<img class="fourth-img" src="images/digital.jpg" alt="Our Services">
 
 
+<h4 class="h4"><strong>Digital Transformation</strong></h4>
 
-<button class="Digital plans">Digital plans &#x25B6; </button>
-
-</section>
-
-
-<section>
-
-<img class="Fourth img" src="images/marketing.jpg" alt="Marketing">
-
-<h5><strong>Marketing</strong></h5>
-
-<p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi? </p>
-
-
-<button class="Marketing plans">Marketing plans &#x25B6; </button>
-
-</section>
+<p class="p3">Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi? </p>
 
 
 
-<section>
-
-<img class="Fifth img" src="images/video.jpg" alt="Video">
-
-<h6><strong>Video Production</strong></h6>
-
-<p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi? </p>
-
-<button class="Video plans">Video plans &#x25B6; </button>
+<button class="digital-plans">Digital plans &#x25B6; </button>
 
 </section>
 
 
 <section>
 
-<img class="Sixth img" src="images/web.jpg" alt="Web">
+<img class="fifth-img" src="images/marketing.jpg" alt="Marketing">
 
-<h2><strong>Web Development</strong></h2>
+<h5 class="h5"><strong>Marketing</strong></h5>
 
-<p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi? </p>
+<p class="p4"> Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi? </p>
 
 
-<button class="Web plans">Web plans &#x25B6; </button>
+<button class="marketing-plans">Marketing plans &#x25B6; </button>
 
 </section>
 
@@ -126,69 +101,97 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atq
 
 <section>
 
+<img class="sixth-img" src="images/video.jpg" alt="Video">
 
-<img class="Seventh img" src="images/print.jpg" alt="Print">
+<h6 class="h6"><strong>Video Production</strong></h6>
 
+<p class="p5"> Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi? </p>
 
-<h2><strong>Print</strong></h2>
-
-<p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi? </p>
-
-<button class="Print plans">Print plans &#x25B6; </button>
+<button class="video-plans">Video plans &#x25B6; </button>
 
 </section>
 
 
 <section>
 
-<h3><strong>Our Vision</strong></h3>
+<img class="seventh-img" src="images/web.jpg" alt="Web">
 
-<img class="Eighth img" src="images/vision.jpg" alt="The Vision">
+<h2 class="h2-1"><strong>Web Development</strong></h2>
 
-<p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex voluptatem deleniti lure, sit, accusantium rerum est commodi veniam tempora perspiciatis nobis officiis fagiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p>
-
-<button class="Learn more">Learn more &#x25B6; </button>
-
-</section>
+<p class="p6"> Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi? </p>
 
 
-<section>
-
-<h4><strong>Our Team</strong></h4>
-
-<img class="Ninth img" src="images/john.jpg" alt="The team">
-
-<h5><strong>John Doe</strong></h5> 
-
-<h6><strong>CEO and Co-owner</strong></h6> 
-
-<p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora. </p> 
+<button class="web-plans">Web plans &#x25B6; </button>
 
 </section>
 
 
 <section>
 
-<img class="Tenth img" src="images/bob.jpg" alt="Bob">
+<img class="eigth-img" src="images/print.jpg" alt="Print">
 
 
-<h2><strong>Bob Rite</strong></h2> 
+<h2 class="h2-2"><strong>Print</strong></h2>
 
-<h2><strong>CFO and Co-owner</strong></h2> 
+<p class="p7"> Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi? </p>
 
-<p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora. </p> 
+<button class="print-plans">Print plans &#x25B6; </button>
+
+</section>
+
+
+<section>
+
+<h3 class="h2-3"><strong>Our Vision</strong></h3>
+
+<img class="ninth-img" src="images/vision.jpg" alt="The Vision">
+
+<p class="p8"> Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex voluptatem deleniti lure, sit, accusantium rerum est commodi veniam tempora perspiciatis nobis officiis fagiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p>
+
+<button class="learn-more">Learn more &#x25B6; </button>
 
 </section>
 
 
 <section>
 
-    <h3><strong>Contact Us</strong></h3> <br>
+<h4 class="h2-4"><strong>Our Team</strong></h4>
+
+<img class="tenth-img" src="images/john.jpg" alt="The team">
+
+<h5 class="h2-5"><strong>John Doe</strong></h5> 
+
+<h6 class="h2-6"><strong>CEO and Co-owner</strong></h6> 
+
+<p class="p9"> Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora. </p> 
+
+<div class="horizontal-line"></div>
 
 </section>
 
 
 <section>
+
+<img class="eleventh-img" src="images/bob.jpg" alt="Bob">
+
+
+<h2 class="h2-7"><strong>Bob Rite</strong></h2> 
+
+<h2 class="h2-8"><strong>CFO and Co-owner</strong></h2> 
+
+<p class="p10"> Lorem ipsum dolor sit amet consectetur adipiscing elit. Amet, aspernatur ratione sed cum ad officiis sint comque fugiat similique. Earum laudantium deleniti possimus? Voluptatem architecto repellendus harum sit voluptatum tempora. </p> 
+
+</section>
+
+
+<section>
+
+    <h3 class="h3-1"><strong>Contact Us</strong></h3> 
+
+</section>
+
+
+<section class="h3-2">
 
     <h4><strong>Send us a message</strong></h4> <br>
     
@@ -214,7 +217,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atq
 
 </section>
 
-<section>
+<section class="h3-3">
 
     <h5><strong>Hours of operation</strong></h5>
    
@@ -223,6 +226,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atq
     <table>
 
         <tr>
+
             <th>Days</th>
             <th>Hours</th>
             </tr>
@@ -246,7 +250,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atq
 </section>
 
 
-<section>
+<section class="h3-4">
 
 <h6>Location</h6>
 

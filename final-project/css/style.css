@@ -1,0 +1,572 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+  
+    background-color: black;}
+    
+ .container{
+	background-color: #C78C06;
+    margin-left: 223px;
+    margin-right: 53px;
+    margin-top: 25px;
+    padding-bottom: 132px;
+    padding-top: 20px;
+	
+ }
+
+ .search-bar{
+    position:relative;
+    display:inline-block;
+ }
+
+ .search-bar input[type="text"] {
+    padding:8px 12px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    font-size:16px;
+ }
+
+ #home{
+	float:right;
+	
+ }
+
+ /*COME BACK TO THIS*/
+
+ .second-img {
+	width: 938px;
+    Height: 625px;
+    margin-left: 224px;
+    margin-right: 338px;
+	
+ }
+
+
+ .h1{
+	color: white;
+    margin: 132px 0px 0px 224px;
+    font-size: 72px;
+	font-weight: bolder;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 309px;
+    padding-left: 6px;
+    Padding-right: 275px;
+    padding-block-start: 20px;
+	
+ }
+
+ .p1{
+	color: white;
+    font-size: 19px;
+    position: absolute;
+    margin: -223px 61px 0px 235px;
+ }
+
+ .connect-with-us{
+	background-color: #C78C06;
+    margin-left: 234px;
+    margin-top: -133px;
+    margin-bottom: 9px;
+    padding-bottom: 26px;
+    padding-top: 25px;
+    font-size: 19px;
+	position: absolute;
+	
+ }
+
+ .third-img{
+	margin-left: 224px;
+    margin-top: -4px;
+    padding-bottom: 415px;
+    padding-top: 25px;
+    padding-left: 27px;
+    padding-right: 25px;
+    background-color: #f6dfaa;
+ }
+
+ .h2{
+	color: black;
+    font-size: 44px;
+    font-weight: bolder;
+    margin-top: -392px;
+    margin-bottom: 30px;
+    margin-left: -18px;
+    padding-top: 3px;
+    padding-left: 257px;
+ }
+
+ .p2{
+
+	color: black;
+    font-size: 19px;
+    position: absolute;
+	margin: 25px 133px 0px 241px;
+ }
+
+ .fourth-img{
+	width: 934px;
+    Height: 494px;
+    margin-left: 228px;
+	margin-right:10px;
+    margin-top: -30px;
+    padding-bottom: 415px;
+    background-color: #f6dfaa
+
+}
+
+.h3 {
+	font-size: 44px;
+    font-weight: bolder;
+    color: black;
+    padding-left: 16px;
+    padding-top: 42px;
+    padding-bottom: 12px;
+    background-color: white;
+    margin-top: 334px;
+    margin-bottom: 30px;
+    margin-left: 226px;
+    margin-right: 55px;
+}
+
+.h4{
+	font-size: 44px;
+    font-weight: bolder;
+    color:black;
+    padding-left: 6px;
+    padding-bottom: 172px;
+    margin-top: -407px;
+    margin-bottom: 30px;
+    margin-left: 237px;
+    margin-right: 57px;	
+
+}
+
+.p3{
+    Font-size: 19px;
+    color: black;
+    padding-left: 19px;
+    margin-top: -148px;
+    margin-bottom: 423px;
+    margin-left: 234px;
+    margin-right: 57px;
+}
+
+
+.digital-plans{
+
+	background-color: rgba(19, 19, 19, 0.897);
+    margin-left: 246px;
+    margin-top: -345px;
+    padding-bottom: 20px;
+    padding-top: 16px;
+    font-size: 23px;
+    color: white;
+    position: absolute;
+}
+
+.fifth-img{
+	width: 995px;
+    Height: 494px;
+    margin-left: 199px;
+    margin-top: -101px;
+    padding-bottom: 415px;
+    background-color: #f6dfaa;
+}
+
+.h5{
+	font-size:44px;
+	font-weight:bolder;
+	margin-top:-397px;
+	margin-bottom:33px;
+	margin-left:213px;
+	color:black;
+	padding-left: 7px;
+	padding-right: 13px;
+	padding-bottom: 432px;
+	padding-top: 10px;
+}
+
+.p4{
+	color:black;
+	font-size: 19px;
+	margin-top:-398px;
+	margin-bottom:33px;
+	margin-left:218px;
+	padding-left: 6px;
+	padding-right: 13px;
+	padding-bottom: 432px;
+	
+
+}
+
+.marketing-plans{
+
+	background-color: rgba(19, 19, 19, 0.897);
+    margin-left: 231px;
+    margin-top: -374px;
+    padding-bottom: 20px;
+    padding-top: 16px;
+    font-size: 23px;
+    color: white;
+    position: absolute;
+}
+
+.sixth-img{
+    width: 995px;
+    Height: 494px;
+    margin-left: 199px;
+    margin-top: -101px;
+    padding-bottom: 415px;
+    background-color: #f6dfaa;
+}
+
+.h6{
+    font-size:44px;
+	font-weight:bolder;
+	margin-top:-397px;
+	margin-bottom:33px;
+	margin-left:213px;
+	color:black;
+	padding-left: 7px;
+	padding-right: 13px;
+	padding-bottom: 432px;
+	padding-top: 10px; 
+}
+
+.p5{
+    color:black;
+	font-size: 19px;
+	margin-top:-398px;
+	margin-bottom:33px;
+	margin-left:218px;
+	padding-left: 6px;
+	padding-right: 13px;
+	padding-bottom: 432px;
+}
+
+.video-plans{
+    background-color: rgba(19, 19, 19, 0.897);
+    margin-left: 231px;
+    margin-top: -374px;
+    padding-bottom: 20px;
+    padding-top: 16px;
+    font-size: 23px;
+    color: white;
+    position: absolute;
+}
+
+.seventh-img{
+    width: 995px;
+    Height: 494px;
+    margin-left: 199px;
+    margin-top: -101px;
+    padding-bottom: 415px;
+    background-color: #f6dfaa;
+}
+
+
+.h2-1{
+    font-size:44px;
+	font-weight:bolder;
+	margin-top:-397px;
+	margin-bottom:33px;
+	margin-left:213px;
+	color:black;
+	padding-left: 7px;
+	padding-right: 13px;
+	padding-bottom: 432px;
+	padding-top: 10px; 
+}
+
+.p6{
+    color:black;
+	font-size: 19px;
+	margin-top:-398px;
+	margin-bottom:33px;
+	margin-left:218px;
+	padding-left: 6px;
+	padding-right: 13px;
+	padding-bottom: 432px;
+}
+
+.web-plans{
+    background-color: rgba(19, 19, 19, 0.897);
+    margin-left: 231px;
+    margin-top: -374px;
+    padding-bottom: 20px;
+    padding-top: 16px;
+    font-size: 23px;
+    color: white;
+    position: absolute; 
+}
+
+.eigth-img{
+    width: 995px;
+    Height: 494px;
+    margin-left: 199px;
+    margin-top: -101px;
+    padding-bottom: 415px;
+    background-color: #f6dfaa;
+}
+
+
+.h2-2{
+    font-size:44px;
+	font-weight:bolder;
+	margin-top:-397px;
+	margin-bottom:33px;
+	margin-left:213px;
+	color:black;
+	padding-left: 7px;
+	padding-right: 13px;
+	padding-bottom: 432px;
+	padding-top: 10px; 
+}
+
+.p7{
+    color:black;
+	font-size: 19px;
+	margin-top:-398px;
+	margin-bottom:33px;
+	margin-left:218px;
+	padding-left: 6px;
+	padding-right: 13px;
+	padding-bottom: 432px; 
+}
+
+.print-plans{
+    background-color: rgba(19, 19, 19, 0.897);
+    margin-left: 231px;
+    margin-top: -374px;
+    padding-bottom: 20px;
+    padding-top: 16px;
+    font-size: 23px;
+    color: white;
+    position: absolute; 
+}
+
+.h2-3{
+    font-size:44px;
+	font-weight:bolder;
+	margin-top: -219px;
+    margin-bottom: -71px;
+    margin-left: 213px;
+    color: white;
+    padding-left: 7px;
+    padding-right: 13px;
+    padding-bottom: 432px;
+    padding-top: 10px;
+    position: relative;
+}
+
+.ninth-img{
+    width: 1000px;
+    Height: 295px;
+    margin-left: 199px;
+    margin-top: -360px;
+    padding-bottom: 415px;
+    position: absolute;
+}
+.p8{
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    margin-top: -266px;
+    margin-bottom: 31px;
+    margin-left: 198px;
+    padding-left: 6px;
+    padding-right: 13px;
+    padding-bottom: 158px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+.learn-more{
+    background-color: rgba(19, 19, 19, 0.897);
+    margin-left: 222px;
+    margin-top: -148px;
+    padding-bottom: 20px;
+    padding-top: 16px;
+    font-size: 23px;
+    color: white;
+    position: absolute;
+}
+
+
+.h2-4{
+    font-size: 44px;
+    font-weight: bolder;
+    color: black;
+    padding-left: 12px;
+    padding-top: 9px;
+    padding-bottom: 15px;
+    background-color: white;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    margin-left: 201px;
+    margin-right: 18px;
+}
+
+.tenth-img{
+    width: 1000px;
+    Height: 477px;
+    margin-left: 199px;
+    padding-bottom: 415px;
+    background-color: #f6dfaa;
+}
+
+.h2-5{
+    font-size:29px;
+	font-weight:bolder;
+	margin-top:-397px;
+	margin-bottom:33px;
+	margin-left:213px;
+	color:black;
+	padding-left: 7px;
+	padding-right: 13px;
+	padding-bottom: 432px;
+	padding-top: 10px;  
+}
+
+.h2-6{
+    font-size:15px;
+	font-weight:bolder;
+	margin-top:-471px;
+	margin-bottom:33px;
+	margin-left:213px;
+	color:black;
+	padding-left: 7px;
+	padding-right: 13px;
+	padding-bottom: 432px;
+	padding-top: 10px;    
+}
+
+
+.p9{
+    color:black;
+	font-size: 19px;
+	margin-top:-398px;
+	margin-bottom:33px;
+	margin-left:218px;
+	padding-left: 6px;
+	padding-right: 13px;
+	padding-bottom: 432px; 
+}
+
+.eleventh-img{
+    width: 1000px;
+    Height: 477px;
+    margin-left: 199px;
+    padding-bottom: 415px;
+    background-color: #f6dfaa;
+}
+
+.h2-7{
+    font-size:29px;
+	font-weight:bolder;
+	margin-top:-397px;
+	margin-bottom:33px;
+	margin-left:213px;
+	color:black;
+	padding-left: 7px;
+	padding-right: 13px;
+	padding-bottom: 432px;
+	padding-top: 10px;  
+}
+
+
+.h2-8{
+    font-size:15px;
+	font-weight:bolder;
+	margin-top:-471px;
+	margin-bottom:33px;
+	margin-left:213px;
+	color:black;
+	padding-left: 7px;
+	padding-right: 13px;
+	padding-bottom: 432px;
+	padding-top: 10px;    
+}
+
+.p10{
+    color:black;
+	font-size: 19px;
+	margin-top:-398px;
+	margin-bottom:33px;
+	margin-left:218px;
+	padding-left: 6px;
+	padding-right: 13px;
+	padding-bottom: 432px;
+}
+
+.h3-1{
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 191px;
+    margin-top: -180px;
+}
+
+.h3-2{
+    color: white;
+    font-size: 20px;
+    margin-left: 185px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    margin-right: 46px;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+.h3-3{
+    color:white;
+    margin-left: 185px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    margin-right: 46px;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.h3-4{
+    margin-left: 185px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    margin-right: 46px;
+    padding-left: 8px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
